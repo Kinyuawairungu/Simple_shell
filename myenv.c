@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * get_env_var - .. (to display)
- * @env_var: is the var
- * @data: is the program's data
- * Return: .. (to display)
+ * get_env_var - ..
+ * @env_var: var
+ * @data: program's data
+ * Return: ..
  */
 char *get_env_var(char *env_var, data_of_program *data)
 {
@@ -26,11 +26,11 @@ char *get_env_var(char *env_var, data_of_program *data)
 }
 
 /**
- * env_set_key - will overide current key
- * @key: is the var
- * @value: is the new value
- * @data: is the program's data
- * Return: 0, 1 or 2 (values to return)
+ * env_set_key - overide current key
+ * @key: var
+ * @value: new value
+ * @data: program's data
+ * Return: 0, 1 or 2
  */
 
 int env_set_key(char *key, char *value, data_of_program *data)
@@ -63,10 +63,10 @@ int env_set_key(char *key, char *value, data_of_program *data)
 }
 
 /**
- * env_delete_key - will get rid of a key
- * @key: will test par
- * @data: is the program's data
- * Return: 1 or 0 (values to retun)
+ * env_delete_key - get rid of a key
+ * @key: test par
+ * @data: program's data
+ * Return: 1 or 0
  */
 int env_delete_key(char *key, data_of_program *data)
 {
@@ -98,8 +98,8 @@ int env_delete_key(char *key, data_of_program *data)
 
 
 /**
- * show_environ - to show rep current env
- * @data: is the  program's data
+ * show_environ - rep current env
+ * @data: program's data
  */
 void show_environ(data_of_program *data)
 {

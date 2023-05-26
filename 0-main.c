@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - will be the entry point
- * @argc: is the arg count
- * @argv: is the arg vec
+ * main - entry point
+ * @argc: arg count
+ * @argv: arg vec
  * @env: values for env
- * Return: will return 0
+ * Return: 0
  */
 int main(int argc, char *argv[], char *env[])
 {
@@ -27,8 +27,8 @@ int main(int argc, char *argv[], char *env[])
 }
 
 /**
- * handle_ctrl_c - .. (will display)
- * @UNUSED: is the option of the prototype
+ * handle_ctrl_c - ..
+ * @UNUSED: option of the prototype
  */
 void handle_ctrl_c(int opr UNUSED)
 {
@@ -37,11 +37,11 @@ void handle_ctrl_c(int opr UNUSED)
 }
 
 /**
- * process_data - will load data from structure
- * @data: .. (will display)
- * @argv: args (is the args)
+ * process_data - load data from structure
+ * @data: ..
+ * @argv: args
  * @env: environ
- * @argc: is the args count
+ * @argc: args count
  */
 void process_data(data_of_program *data, int argc, char *argv[], char **env)
 {
@@ -85,9 +85,9 @@ void process_data(data_of_program *data, int argc, char *argv[], char **env)
 	}
 }
 /**
- * prompter - will show prompt
+ * prompter - show prompt
  * @prompt: prompt
- * @data: .. (will display)
+ * @data: ..
  */
 void prompter(char *prompt, data_of_program *data)
 {

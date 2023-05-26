@@ -1,18 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/stat.h>
-#include <signal.h>
-#include <fcntl.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stddef.h>
 #include <errno.h>
-#include "helpers"
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+#include <signal.h>
+#include <fcntl.h>
+
+#include "myassists.h"
 
 /**
  * struct info - structure
@@ -27,14 +28,14 @@
  */
 typedef struct info
 {
+char *program_name;
+char *input_line;
 char *command_name;
 int exec_counter;
 int file_descriptor;
 char **tokens;
 char **env;
 char **alias_list;
-char *program_name;
-char *input_line;
 } data_of_program;
 
 /**

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * run_prog - is the function to run prog
- * @data: is the program's data
- * Return: 0 or -1 (values to return)
+ * run_prog - function run prog
+ * @data: program's data
+ * Return: 0 or -1
  */
 int run_prog(data_of_program *data)
 {

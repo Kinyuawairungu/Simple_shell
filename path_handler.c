@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * locate_program - .. (to display)
- * @data: is the program's data
- * Return: 0 (value to return)
+ * locate_program - ..
+ * @data: the program's data
+ * Return: 0
  */
 int locate_program(data_of_program *data)
 {
@@ -48,9 +48,9 @@ int locate_program(data_of_program *data)
 }
 
 /**
- * split_path - will split the path in directories
- * @data: is the program's data
- * Return: directories (to return)
+ * split_path - split the path in directories
+ * @data: program's data
+ * Return: directories
  */
 char **split_path(data_of_program *data)
 {
@@ -89,9 +89,9 @@ char **split_path(data_of_program *data)
 }
 
 /**
- * ascertain_file - will check file
- * @file_path: is the file path
- * Return: 0 (value to return)
+ * ascertain_file - check file
+ * @file_path: file path
+ * Return: 0
  */
 int ascertain_file(char *file_path)
 {

@@ -1,13 +1,13 @@
 #ifndef HELPERS_H
 #define HELPERS_H
 
-/* Will define prompt */ 
-#define PROMPT_MSG "dali<3 " /* Will Need to work with signal */
+/* Prompt to be printed */
+#define PROMPT_MSG "CisFun$ " /* Needed to work with signal */
 
-/* Indicates how to  resume from the unused attibute */
+/* Resume from the unused attibute */
 #define UNUSED __attribute__((unused))
 
-/* will be the buffer size for each read call in _getline */
+/* buffer size for each read call in _getline */
 #define BUFFER_SIZE 1024
 
 /************* FORMATTED STRING FOR HELP BUILT IN **************/
